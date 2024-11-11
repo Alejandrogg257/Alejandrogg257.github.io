@@ -22,13 +22,15 @@ let result13 = alumno.slice(0,alumno.indexOf(" "));
 do {
   let palabra = 0;
   palabra = prompt("CONTRASEÑA:");
-  if(palabra.toLowerCase()=="patata"){
-  alert("CORRECTO");
-    break;
-  }
-  // else {
-  //  alert("ERROR");
-  // }
+  if(palabra.toLowerCase() == "patata")
+    {
+      alert("CORRECTO");
+      break;
+    }
+  else 
+    {
+    alert("ERROR");
+    }
 } while(palabra.toLowerCase()!=="patata");
 
 document.writeln(result01);document.writeln("<br>");
