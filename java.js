@@ -26,8 +26,9 @@ do {
   alert("CORRECTO");
     break;
   }else {
-   alert("ERROR");
-}} while(palabra.toLowerCase()!=="patata");
+  //  alert("ERROR");
+  }
+} while(palabra.toLowerCase()!=="patata");
 
 document.writeln(result01);document.writeln("<br>");
 document.writeln(result02);document.writeln("<br>");
