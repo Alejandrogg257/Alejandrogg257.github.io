@@ -25,9 +25,10 @@ do {
   if(palabra.toLowerCase()=="patata"){
   alert("CORRECTO");
     break;
-  }else {
-  //  alert("ERROR");
   }
+  // else {
+  //  alert("ERROR");
+  // }
 } while(palabra.toLowerCase()!=="patata");
 
 document.writeln(result01);document.writeln("<br>");
