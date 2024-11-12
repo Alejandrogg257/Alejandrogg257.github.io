@@ -18,9 +18,8 @@ let result11 =ingredientes[ingredientes.length -1].length;
 let result12 = alumno.toUpperCase().indexOf("GARCÍA")>0;
 let result13 = alumno.slice(0,alumno.indexOf(" "));
 
-
-for( palabra.toLowerCase()!=="patata")
-  {
+let palabra = "0";
+do {
   let palabra = "0";
   palabra = prompt("CONTRASEÑA:");
   if(palabra.toLowerCase() === "patata")
@@ -33,6 +32,7 @@ for( palabra.toLowerCase()!=="patata")
     alert("ERROR");
     }
 }
+while(palabra.toLowerCase()!== "patata");
 
 document.writeln(result01);document.writeln("<br>");
 document.writeln(result02);document.writeln("<br>");
