@@ -20,8 +20,9 @@ let result13 = alumno.slice(0,alumno.indexOf(" "));
 
 let palabra = " ";
  do {
+  for(let i = 1; i <= 3; i++){
   palabra = prompt("CONTRASEÑA:");
-  for(let i = 1; i <= 3; i++){if(palabra.toLowerCase() === "patata")
+  if(palabra.toLowerCase() === "patata")
     {
       alert("CORRECTO");
       break;
